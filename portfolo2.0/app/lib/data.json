@@ -1,0 +1,36 @@
+{
+  "personalInfo": {
+    "name": "Tu Nombre",
+    "role": "Programador Senior Fullstack",
+    "email": "tu.email@ejemplo.com",
+    "linkedin": "tu_perfil_linkedin",
+    "github": "tu_perfil_github"
+  },
+  "heroSection": {
+    "headline": "Transformando ideas en experiencias digitales.",
+    "subtext": "Especialista en desarrollo Backend robusto y interfaces Frontend reactivas."
+  },
+  "skills": [
+    { "category": "Backend", "items": ["Node.js", "Python (Django/Flask)", "REST APIs", "SQL/NoSQL"] },
+    { "category": "Frontend", "items": ["React/Next.js", "Vue.js", "TypeScript", "Bootstrap"] },
+    { "category": "DevOps", "items": ["Docker", "Git", "CI/CD", "AWS/Vercel"] }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Juego de Aventura en Vue",
+      "slug": "juego-vue-pinia",
+      "short_desc": "Juego interactivo 'Elige tu propia aventura' con gestión de estado avanzada.",
+      "technologies": ["Vue 3", "Pinia", "Bootstrap", "JSON"],
+      "full_desc": "Desarrollo completo de un juego basado en narrativa, demostrando manejo de estado, lógica condicional de inventario y arquitectura de componentes desacoplada."
+    },
+    {
+      "id": 2,
+      "title": "Plataforma E-commerce Escalable",
+      "slug": "ecommerce-plataforma",
+      "short_desc": "Solución de comercio electrónico modular y de alto rendimiento.",
+      "technologies": ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
+      "full_desc": "..."
+    }
+  ]
+}
